@@ -101,12 +101,12 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .s-chistogo-lista {
     width: auto;
     height: auto;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     padding-top: 0;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-weight: 400;
     font-size: 72px;
     line-height: 100%;
@@ -114,10 +114,11 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .title-begining {
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 72px;
     line-height: 100%;
     margin-top: 0;
+    letter-spacing: 0;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -129,8 +130,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 0;
+    letter-spacing: 0;
     padding-bottom: 0;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 72px;
     line-height: 100%;
     text-align: center;
@@ -143,8 +145,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 72px;
+    letter-spacing: 0;
     line-height: 100%;
     text-align: end;
     padding-right: 20px;
@@ -156,7 +159,6 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     font-weight: 400;
     display: flex;
     flex-flow: column;
-    justify-content: first baseline;
     padding-left: 20px;
     line-height: 120%;
     padding-right: 20px;
@@ -236,7 +238,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .title-yellow {
     margin: 0;
     padding: 0;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 28px;
     line-height: 115%;
     letter-spacing: 0;
@@ -341,7 +343,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .how-what-to-do {
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-weight: 500;
     font-size: 28px;
     line-height: 115%;
@@ -410,7 +412,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .polyarinov-title {
     margin: 0;
     padding: 8px 20px 8px 20px;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-size: 22px;
     line-height: 135%;
     font-weight: 500;
@@ -442,7 +444,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin: 0;
     width: auto;
     padding: 0;
-    font-family: "EBgaramond", serif;
+    font-family: "EB Garamond", serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 135%;

@@ -7,7 +7,7 @@
     url('/fonts/ebgaramondmedium.ttf') format('ttf'),
     url('/fonts/ebgaramondmedium.woff') format('woff'),
     url('/fonts/ebgaramondmedium.woff2') format('woff2');
-    font-family: 'EBgaramond';
+    font-family: 'EB Garamond';
     font-weight: 500;
 }
 
@@ -19,7 +19,7 @@
     url('/fonts/ebgaramondregular.ttf') format('ttf'),
     url('/fonts/ebgaramondregular.woff') format('woff'),
     url('/fonts/ebgaramondregular.woff2') format('woff2');
-    font-family: 'EBgaramond';
+    font-family: 'EB Garamond';
     font-weight: 400;
 }
 
