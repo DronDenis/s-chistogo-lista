@@ -47,10 +47,13 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     font-size: 16px;
     letter-spacing: 0;
     text-align: left;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #f5f5f5;
     margin-right: 19.27px;
     margin-bottom: 24px;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .title {
@@ -58,26 +61,29 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-top: 0;
     font-size: 16px;
     margin-bottom: 12px;
-    font-family: "Inter Regular", sans-serif;
-    font-weight: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 .about {
     text-decoration: underline;
     font-size: 16px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .contacts {
     text-decoration: underline;
     font-size: 16px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 12px;
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 0;
 }
 
@@ -102,39 +108,49 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     letter-spacing: 0%;
     margin-top: 0;
     padding-top: 10px;
-    font-family: "EBgaramond Regular" sans-serif;
-    font-weight: normal;
+    font-family: "EBgaramond" sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 72px;
     line-height: 100%;
     text-decoration: none;
 }
 
 .title-begining {
-    font-family: "EBgaramond Regular" sans-serif;
+    font-family: "EBgaramond" sans-serif;
     font-size: 72px;
     line-height: 100%;
     margin-top: 0;
-        text-align: left;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .title-middle {
     padding-top: 0;
     margin-top: 0;
-    font-family: "EBgaramond Regular" sans-serif;
+    font-family: "EBgaramond" sans-serif;
     font-size: 72px;
     line-height: 100%;
     text-align: center;
     padding-right: 20px;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .title-end {
     padding-top: 0;
     margin-top: 0;
-    font-family: "EBgaramond Regular" sans-serif;
+    font-family: "EBgaramond" sans-serif;
     font-size: 72px;
     line-height: 100%;
     text-align: end;
     padding-right: 20px;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .eight-ways-title {
@@ -162,9 +178,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: "Inter Regular", sans-serif;
-    font-weight: normal;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
+    font-style: normal;
     line-height: 120%;
     letter-spacing: 0;
     width: 203px;
@@ -180,9 +196,10 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-top: 0;
     margin-right: 0;
     font-size: 16px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     text-align: end;
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
     line-height: 120%;
     letter-spacing: 0;
 
@@ -197,8 +214,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     height: auto;
     color: #f5f5f5;
     font-size: 16px;
-    font-family: "Inter Regular", sans-serif;
-    font-weight: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 21.6px;
     text-align: left;
     letter-spacing: 0;
@@ -222,13 +240,14 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .title-yellow {
     margin: 0;
     padding: 0;
-    font-family: "EBgaramond Medium", serif;
+    font-family: "EBgaramond", serif;
     font-size: 28px;
     line-height: 115%;
     letter-spacing: 0;
     width: auto;
     height: auto;
-    font-weight: normal;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .title-yellow-one {
@@ -253,7 +272,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 
 .yellow-text {
     padding-left: 20px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
@@ -276,7 +295,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-top: 0;
     width: auto;
     padding-right: 20px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 21.6px;
     letter-spacing: 0;
@@ -286,6 +305,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-left: 0;
     padding-bottom: 39px;
     margin-bottom: 0;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .lists {
@@ -326,7 +348,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .how-what-to-do {
-    font-family: "EBgaramond Medium", serif;
+    font-family: "EBgaramond", serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 28px;
     line-height: 115%;
     letter-spacing: 0;
@@ -345,8 +369,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .answer {
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
+    font-style: normal;
     font-size: 20px;
     line-height: 135%;
     letter-spacing: 0;
@@ -376,11 +401,12 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin: 0;
 }
 .polyarinov-name {
-    font-family: "Inter Bold", sans-serif;
+    font-family: "Inter", sans-serif;
     padding-left: 20px;
     font-size: 16px;
     line-height: 135%;
     font-weight: 700;
+    font-style: normal;
     margin: 0;
     padding-top: 0;
     height: 20px;
@@ -394,21 +420,23 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .polyarinov-title {
     margin: 0;
     padding: 8px 20px 8px 20px;
-    font-family: "EBgaramond Medium", serif;
+    font-family: "EBgaramond", serif;
     font-size: 22px;
     line-height: 135%;
     font-weight: 500;
+    font-style: normal;
 }
 
 .polyarinov-text {
     margin: 0;
     padding: 0 20px 20px 20px;
     width: auto;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     letter-spacing: 0;
     font-size: 16px;
     line-height: 21.6px;
     font-weight: 400;
+    font-style: normal;
 }
 
 .background-yellow {
@@ -426,8 +454,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin: 0;
     width: auto;
     padding: 0;
-    font-family: "EBgaramond Medium", serif;
+    font-family: "EBgaramond", serif;
     font-weight: 500;
+    font-style: normal;
     font-size: 22px;
     line-height: 135%;
     letter-spacing: 0;
@@ -438,8 +467,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     padding: 0;
     padding-top: 8px;
     width: auto;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 21.6px;
     letter-spacing: 0;
@@ -469,8 +499,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     line-height: 135%;
 }
@@ -490,10 +521,11 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin: 0;
     padding: 0;
     padding-left: 16px;
-    font-family: "Inter Regular", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 125%;
     letter-spacing: 0;
     font-weight: 400;
+    font-style: normal;
     justify-self: right;
 }
