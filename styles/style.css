@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: aqua;
 }
 
@@ -12,79 +13,85 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     padding: 0;
 }
 
-.black-background {
-    width: 360px;
+.main-background {
+    width: auto;
     background-color: #000;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .header-icon {
-    row-gap: auto;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
-    align-content: baseline;
+    row-gap: 160px;
+    align-items: first baseline;
     width: auto;
     height: auto;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: 0;
 }
 
 .background-image {
     height: 15.43px;
     width: 78.45px;
     display: block;
-    margin-top: 24px;
-    margin-left: 19.27px;
-
+    margin: 0;
+    padding: 0;
 }
 
 .frame-one {
-    box-sizing: content-box;
-    width: auto;
-    display: block;
-    margin-left: 168px;
-    line-height: 19.2px;
-    margin-top: 24px;
+    width: 75px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    column-gap: 0;
+    line-height: 0;
+    padding: 0 0 24px 160px;
     font-size: 16px;
     letter-spacing: 0;
     text-align: left;
     font-family: "Inter", sans-serif;
     color: #f5f5f5;
-    margin-right: 19.27px;
-    margin-bottom: 24px;
     font-weight: 400;
 }
 
 .title {
     text-decoration: none;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
     font-size: 16px;
-    margin-bottom: 12px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
 .about {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
     text-decoration: underline;
     font-size: 16px;
     font-family: "Inter", sans-serif;
-    margin-top: 12px;
-    margin-bottom: 12px;
     font-weight: 400;
 }
 
 .contacts {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
     text-decoration: underline;
     font-size: 16px;
     font-family: "Inter", sans-serif;
-    margin-top: 12px;
     font-weight: 400;
-    margin-bottom: 0;
 }
 
 .title-background {
     width: auto;
+    display: flex;
+    flex-flow: column;
     height: auto;
     background-color: #000;
     padding-top: 7px;
@@ -93,65 +100,30 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     background-repeat: no-repeat;
     background-size: 339px 198px;
     background-position: 20px 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 0;
+    margin: 0;
+    padding: 7px 24px 0 20px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0;
 }
 
 .s-chistogo-lista {
     width: auto;
     height: auto;
-    letter-spacing: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 0;
-    font-family: "EB Garamond", serif;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 100%;
-    text-decoration: none;
 }
 
 .title-begining {
-    font-family: "EB Garamond", serif;
-    font-size: 72px;
-    line-height: 100%;
-    margin-top: 0;
-    letter-spacing: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
     text-align: left;
-    font-weight: 400;
 }
 
 .title-middle {
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    letter-spacing: 0;
-    padding-bottom: 0;
-    font-family: "EB Garamond", serif;
-    font-size: 72px;
-    line-height: 100%;
     text-align: center;
-    padding-right: 20px;
-    font-weight: 400;
 }
 
 .title-end {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "EB Garamond", serif;
-    font-size: 72px;
-    letter-spacing: 0;
-    line-height: 100%;
     text-align: end;
-    padding-right: 20px;
-    font-weight: 400;
 }
 
 .eight-ways-title {
@@ -159,11 +131,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     font-weight: 400;
     display: flex;
     flex-flow: column;
-    padding-left: 20px;
+    margin: 0;
+    padding: 35px 20px 38px 20px;
     line-height: 120%;
-    padding-right: 20px;
-    padding-top: 35px;
-    padding-bottom: 38px;
     width: auto;
 }
 
@@ -222,7 +192,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-bottom: 0;
 }
 
-.yellow-background {
+.second-background {
     background-color: #fee42a;
     width: auto;
     height: auto;
@@ -235,7 +205,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     flex-flow: column;
 }
 
-.title-yellow {
+.title-why {
     margin: 0;
     padding: 0;
     font-family: "EB Garamond", serif;
@@ -247,7 +217,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     font-weight: 500;
 }
 
-.title-yellow-one {
+.title-why-one {
     margin-right: 0;
     width: auto;
     padding-left: 0;
@@ -258,7 +228,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     text-align: right;
 }
 
-.title-yellow-two {
+.title-why-two {
     padding-left: 20px;
     width: auto;
     text-align: left;
@@ -267,7 +237,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-bottom: 0;
 }
 
-.yellow-text {
+.why-text {
     padding-left: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -313,29 +283,16 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-bottom: 0;
 }
 
-.lists-one {
-    height: 130px;
+.bold-word {
+    font-weight: bold;
 }
 
-.lists-two {
-    height: 173px;
-}
-
-.lists-three {
-    height: 130px;
-}
-
-.lists-four {
-    height: 216px;
-}
-
-.lists-five {
-    height: 152px;
+.lists-poor {
     padding: 0;
     margin: 0;
 }
 
-.black-background-two {
+.main-background-two {
     margin: 0;
     padding: 40px 20px 60px 20px;
     width: auto;
@@ -343,6 +300,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .how-what-to-do {
+    display: flex;
+    flex-flow: column;
+    width: auto;
     font-family: "EB Garamond", serif;
     font-weight: 500;
     font-size: 28px;
@@ -375,7 +335,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     padding-bottom: 32px;
 }
 
-.gray-background {
+.additional-background {
     margin: 0;
     padding: 0;
     background-color: #343434;
@@ -429,7 +389,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     font-weight: 400;
 }
 
-.background-yellow {
+.background-set {
     margin: 0;
     margin-top: 32px;
     margin-bottom: 32px;
