@@ -1,14 +1,17 @@
 * {
     width: 360px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 360px;
 }
 
 body {
+    background-color: aqua;
     margin: 0;
     padding: 0;
-    background-color: aqua;
 }
 
-h1 h2 h3 h4 h5 h6 p ul ol {
+h1 h2 h3 h4 h5 h6 p ul ol span time {
     margin: 0;
     padding: 0;
 }
@@ -16,92 +19,70 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .main-background {
     width: auto;
     background-color: #000;
+    color: #f5f5f5;
     height: auto;
-    margin: 0;
-    padding: 0;
 }
 
 .header-icon {
     display: flex;
     flex-flow: row;
-    row-gap: 160px;
+    gap: 168px;
     align-items: first baseline;
-    width: auto;
-    height: auto;
-    padding-left: 20px;
-    padding-top: 24px;
-    margin: 0;
+    padding: 24px 20px;
 }
 
 .background-image {
     height: 15.43px;
     width: 78.45px;
     display: block;
-    margin: 0;
-    padding: 0;
 }
 
-.frame-one {
-    width: 75px;
+.frame-nav {
+    width: auto;
     height: auto;
     display: flex;
     flex-flow: column;
-    margin: 0;
-    column-gap: 0;
-    line-height: 0;
-    padding: 0 0 24px 160px;
+    gap: 12px;
+}
+
+.link__font {
+    line-height: 19.2px;
     font-size: 16px;
     letter-spacing: 0;
     text-align: left;
     font-family: "Inter", sans-serif;
     color: #f5f5f5;
     font-weight: 400;
-}
-
-.title {
     text-decoration: none;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
 }
 
-.about {
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-    text-decoration: underline;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+.underline {
+    color: #f5f5f5;
+    border-bottom: 1px solid currentColor;
+
 }
 
-.contacts {
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-    text-decoration: underline;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-}
-
-.title-background {
-    width: auto;
-    display: flex;
-    flex-flow: column;
+main {
+    width: 360px;
     height: auto;
-    background-color: #000;
-    padding-top: 7px;
-    color: #fff;
+}
+
+.main-title__image {
+    width: auto;
     background-image: url(../images/cover.svg);
     background-repeat: no-repeat;
-    background-size: 339px 198px;
-    background-position: 20px 25px;
-    margin: 0;
-    padding: 7px 24px 0 20px;
+    background-size: 340px 221px;
+    background-position: 20px 20px;
+    padding: 7px 24px 30px 20px;
+}
+
+.main-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 0;
+    color: #fff;
     font-family: "EB Garamond", serif;
     font-weight: 400;
     font-size: 72px;
@@ -109,21 +90,25 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     letter-spacing: 0;
 }
 
-.s-chistogo-lista {
-    width: auto;
-    height: auto;
-}
-
 .title-begining {
+    width: auto;
+    margin: 0;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .title-middle {
     text-align: center;
+    width: auto;
+    margin: 0;
+    text-transform: lowercase;
 }
 
 .title-end {
     text-align: end;
+    width: auto;
+    margin: 0;
+    text-transform: lowercase;
 }
 
 .eight-ways-title {
@@ -132,18 +117,18 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     display: flex;
     flex-flow: column;
     margin: 0;
-    padding: 35px 20px 38px 20px;
+    padding: 0 20px 37px 20px;
     line-height: 120%;
     width: auto;
 }
 
 .eight-ways-date {
     font-family: "Inter", sans-serif;
+    margin: 0;
     font-weight: 400;
     display: flex;
     flex-flow: row;
     line-height: 120%;
-    row-gap: auto;
     justify-content: space-between;
     width: auto;
     height: auto;
@@ -163,11 +148,10 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .date {
+    margin: 0;
     box-sizing: content-box;
     display: block;
     width: auto;
-    margin-top: 0;
-    margin-right: 0;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     text-align: end;
@@ -178,8 +162,6 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 
 .eight-ways-date-text {
     padding-top: 24px;
-    margin-top: 0;
-    margin-right: 0;
     width: auto;
     height: auto;
     color: #f5f5f5;
@@ -192,20 +174,19 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     margin-bottom: 0;
 }
 
-.second-background {
+.other-background {
     background-color: #fee42a;
     width: auto;
     height: auto;
-    padding-left: 0;
-    padding-right: 20px;
-    padding-top: 40px;
+    padding: 40px 20px;
     margin: 0;
     color: #131313;
     display: flex;
     flex-flow: column;
+    gap: 32px;
 }
 
-.title-why {
+.title__content {
     margin: 0;
     padding: 0;
     font-family: "EB Garamond", serif;
@@ -215,72 +196,52 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     width: auto;
     height: auto;
     font-weight: 500;
+    display: flex;
+    flex-flow: column;
 }
 
-.title-why-one {
-    margin-right: 0;
+.align__title {
     width: auto;
-    padding-left: 0;
-    margin-left: 0;
-    justify-self: left;
-    display: block;
-    padding-right: 20px;
     text-align: right;
+    margin: 0;
 }
 
-.title-why-two {
-    padding-left: 20px;
+.align__title-other-way {
     width: auto;
     text-align: left;
-    display: block;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.why-text {
-    padding-left: 20px;
+.content__text {
+    margin: 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0;
-    color: #131313;
     text-align: left;
-    padding-top: 32px;
     width: auto;
     height: auto;
-    padding-right: 20px;
-    margin-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 .list {
+    margin: 0;
+    padding-left: 16px;
     display: flex;
     flex-flow: column;
-    padding-top: 32px;
-    margin-top: 0;
+    gap: 16px;
     width: auto;
-    padding-right: 20px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 21.6px;
     letter-spacing: 0;
     text-align: left;
     color: #131313;
-    padding-left: 36px;
-    margin-left: 0;
-    padding-bottom: 39px;
-    margin-bottom: 0;
     font-weight: 400;
 }
 
 .lists {
-    width: 304px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-bottom: 16px;
-    margin-bottom: 0;
+    width: auto;
 }
 
 .bold-word {
@@ -288,99 +249,65 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .lists-poor {
-    padding: 0;
     margin: 0;
 }
 
-.main-background-two {
+.main-background__new {
     margin: 0;
     padding: 40px 20px 60px 20px;
     width: auto;
-    color: #f5f5f5;
-}
-
-.how-what-to-do {
     display: flex;
     flex-flow: column;
-    width: auto;
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 115%;
-    letter-spacing: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.how {
-    text-align: right;
-    width: auto;
-}
-
-.what-to-do {
-    width: auto;
-    text-align: left;
-}
-
-.answer {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 135%;
-    letter-spacing: 0;
-    text-align: left;
-    width: auto;
-    margin: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    gap: 32px;
 }
 
 .additional-background {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #343434;
     width: auto;
     border-radius: 30px;
     height: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
     
 }
 
-.polyarinov-icon {
+.autor__head {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+
+.autor-icon {
     width: 100px;
     height: 100px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 0;
     margin: 0;
 }
-.polyarinov-name {
+.autor-name {
     font-family: "Inter", sans-serif;
-    padding-left: 20px;
     font-size: 16px;
     line-height: 135%;
     font-weight: 700;
     margin: 0;
-    padding-top: 0;
-    height: 20px;
     width: auto;
 }
 
-.polyarinov-one {
-    width: auto;
-}
-
-.polyarinov-title {
+.autor-title {
     margin: 0;
-    padding: 8px 20px 8px 20px;
+    width: auto;
     font-family: "EB Garamond", serif;
     font-size: 22px;
     line-height: 135%;
     font-weight: 500;
 }
 
-.polyarinov-text {
+.autor-text {
     margin: 0;
-    padding: 0 20px 20px 20px;
     width: auto;
     font-family: "Inter", sans-serif;
     letter-spacing: 0;
@@ -391,48 +318,20 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 
 .background-set {
     margin: 0;
-    margin-top: 32px;
-    margin-bottom: 32px;
     padding: 20px;
     background-color: #fee42a;
     width: auto;
     border-radius: 30px;
     color: #131313;
-}
-
-.put-down {
-    margin: 0;
-    width: auto;
-    padding: 0;
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 135%;
-    letter-spacing: 0;
-}
-
-.put-down-text {
-    margin: 0;
-    padding: 0;
-    padding-top: 8px;
-    width: auto;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21.6px;
-    letter-spacing: 0;
-
-}
-
-.bunin-name {
-    margin: 0;
-    padding-top: 8px;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
 }
 
 .footer {
     margin: 0;
     width: auto;
-    padding: 0;
+    padding: 20px;
     color: #f5f5f5;
     display: flex;
     flex-flow: row;
@@ -440,13 +339,10 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     border-top: 1px solid #fee42a;
 }
 
-.footer-verstka {
+.footer-icon {
     margin: 0;
     height: auto;
     width: auto;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -455,11 +351,10 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 
 .footer-socials {
     margin: 0;
-    padding-right: 20px;
-    padding-top: 20px;
     width: auto;
     display: flex;
     flex-flow: row;
+    gap: 16px;
     justify-content: space-between;
 }
 
@@ -467,7 +362,6 @@ h1 h2 h3 h4 h5 h6 p ul ol {
     width: auto;
     margin: 0;
     padding: 0;
-    padding-left: 16px;
     font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 125%;
