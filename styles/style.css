@@ -1,0 +1,372 @@
+* {
+    width: 360px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 360px;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol span time {
+    margin: 0;
+    padding: 0;
+}
+
+.main-background {
+    width: auto;
+    background-color: #000;
+    color: #f5f5f5;
+    height: auto;
+}
+
+.header-icon {
+    display: flex;
+    flex-flow: row;
+    gap: 168px;
+    align-items: first baseline;
+    padding: 24px 20px;
+}
+
+.background-image {
+    height: 15.43px;
+    width: 78.45px;
+    display: block;
+}
+
+.frame-nav {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.link__font {
+    line-height: 19.2px;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: #f5f5f5;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.underline {
+    color: #f5f5f5;
+    border-bottom: 1px solid currentColor;
+
+}
+
+main {
+    width: 360px;
+    height: auto;
+}
+
+.main-title__image {
+    width: auto;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 340px 221px;
+    background-position: 20px 18px;
+    padding: 7px 24px 5px 20px;
+}
+
+.main-title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: baseline;
+    gap: 0;
+    color: #fff;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.title-begining {
+    width: auto;
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.title-middle {
+    text-align: center;
+    width: auto;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+.title-end {
+    text-align: end;
+    width: auto;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+.eight-ways-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 30px 20px 37px 20px;
+    line-height: 120%;
+    width: auto;
+}
+
+.eight-ways-date {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    flex-flow: row;
+    line-height: 120%;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    color: #ccc;
+}
+
+.eight-ways {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0;
+    width: 203px;
+    height: auto;
+}
+
+.date {
+    margin: 0;
+    box-sizing: content-box;
+    display: block;
+    width: auto;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    text-align: end;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.eight-ways-date-text {
+    padding-top: 24px;
+    width: auto;
+    height: auto;
+    color: #f5f5f5;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.other-background {
+    background-color: #fee42a;
+    width: auto;
+    height: auto;
+    padding: 40px 20px;
+    margin: 0;
+    color: #131313;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+
+.title__content {
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+    font-size: 28px;
+    line-height: 115%;
+    letter-spacing: 0;
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    display: flex;
+    flex-flow: column;
+}
+
+.align__title {
+    width: auto;
+    text-align: right;
+    margin: 0;
+}
+
+.align__title-other-way {
+    width: auto;
+    text-align: left;
+    margin: 0;
+}
+
+.content__text {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+.list {
+    margin: 0;
+    padding-left: 16px;
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    width: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #131313;
+    font-weight: 400;
+}
+
+.lists {
+    width: auto;
+}
+
+.bold-word {
+    font-weight: bold;
+}
+
+.lists-poor {
+    margin: 0;
+}
+
+.main-background__new {
+    margin: 0;
+    padding: 40px 20px 60px 20px;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+
+.additional-background {
+    margin: 0;
+    padding: 20px;
+    background-color: #343434;
+    width: auto;
+    border-radius: 30px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+    
+}
+
+.autor__head {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+
+.autor-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+.autor-name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 135%;
+    font-weight: 700;
+    margin: 0;
+    width: auto;
+}
+
+.autor-title {
+    margin: 0;
+    width: auto;
+    font-family: "EB Garamond", serif;
+    font-size: 22px;
+    line-height: 135%;
+    font-weight: 500;
+}
+
+.autor-text {
+    margin: 0;
+    width: auto;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+}
+
+.background-set {
+    margin: 0;
+    padding: 20px;
+    background-color: #fee42a;
+    width: auto;
+    border-radius: 30px;
+    color: #131313;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+
+.footer {
+    margin: 0;
+    width: auto;
+    padding: 20px;
+    color: #f5f5f5;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-top: 1px solid #fee42a;
+}
+
+.footer-icon {
+    margin: 0;
+    height: auto;
+    width: auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.footer-socials {
+    margin: 0;
+    width: auto;
+    display: flex;
+    flex-flow: row;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.footer-socials-links {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: 0;
+    font-weight: 400;
+    justify-self: right;
+}
