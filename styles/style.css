@@ -72,8 +72,8 @@ main {
     background-image: url(../images/cover.svg);
     background-repeat: no-repeat;
     background-size: 340px 221px;
-    background-position: 20px 23px;
-    padding: 7px 24px 35px 20px;
+    background-position: 20px 18px;
+    padding: 7px 24px 5px 20px;
 }
 
 .main-title {
@@ -81,6 +81,7 @@ main {
     height: auto;
     display: flex;
     flex-flow: column;
+    justify-content: baseline;
     gap: 0;
     color: #fff;
     font-family: "EB Garamond", serif;
@@ -117,7 +118,7 @@ main {
     display: flex;
     flex-flow: column;
     margin: 0;
-    padding: 0 20px 37px 20px;
+    padding: 30px 20px 37px 20px;
     line-height: 120%;
     width: auto;
 }
